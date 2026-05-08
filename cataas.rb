@@ -139,7 +139,7 @@ if __FILE__ == $0
   puts "Cat saying URL: #{cat_saying.uri}" if cat_saying
   
   # Get a filtered cat
-  puts "\n7. Getting a filtered cat (mono filter)..."
+  puts "\n7. Getting a filtered cat (mono filter)...,.... John loves cats"
   filtered_cat = client.get_cat_with_filter(filter: 'mono')
   puts "Filtered cat URL: #{filtered_cat.uri}" if filtered_cat
 end
