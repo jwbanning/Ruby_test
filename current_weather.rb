@@ -1,6 +1,8 @@
 require "uri"
 require "net/http"
 
+##added a comments... 
+
 url = URI("https://api.weatherapi.com/v1/current.json?q=string&aqi=no&pollen=no&lang=string&current_fields=string&key=03f6c231e306443a988171848241801")
 
 https = Net::HTTP.new(url.host, url.port)
